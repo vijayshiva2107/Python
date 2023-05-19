@@ -1,0 +1,38 @@
+numbers = int(input("Enter a Number:"))
+
+i = 0
+
+while i < len(numbers):
+
+    if numbers[i] % 2 == 0:
+
+        del numbers[i]
+
+    else:
+
+        i += 1
+
+for number in numbers:
+
+     Print(number)
+
+i = 0
+
+while i < len(numbers):
+
+    if numbers[i] % 2 != 0:
+
+        del numbers[i]
+
+    else:
+
+        i += 1
+
+for number in numbers:
+
+    print(number)
+
+
+
+
+
